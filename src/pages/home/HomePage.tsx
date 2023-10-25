@@ -18,14 +18,14 @@ const HomePage = () => {
 							<Logo className="block m-auto min-w-[min(100%,420px)] h-full text-p-light"></Logo>
 						</Box>
 						<Box display="flex" flexWrap="wrap" gap="2rem" justifyContent="center">
-							<MainButton
+							{/* <MainButton
 								data-cy="create-level-button"
 								variant="outlined"
 								startIcon={<MdDesignServices size={48} />}
 								onClick={createOnClick}
 							>
 								CREATE
-							</MainButton>
+							</MainButton> */}
 							<MainButton
 								data-cy="play-button"
 								variant="outlined"
