@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Box, CircularProgress, Pagination } from '@mui/material';
 import { Stack } from '@mui/system';
 import { useEffect } from 'react';

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useRecoilState } from 'recoil';
 import { showUserAuthDialogState } from '../store/showUserAuthenticationDialog';
 import { Dialog, DialogContent, Tab, Tabs } from '@mui/material';

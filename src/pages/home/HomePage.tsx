@@ -2,6 +2,7 @@ import { Box, Container, Slide, Stack } from '@mui/material';
 import { MdDesignServices, MdOutlinePlayCircleFilled } from 'react-icons/md';
 import MainButton from './MainButton';
 import { ReactComponent as Logo } from './../../assets/img/app/text-logo.svg';
+import topHeader from "./../../assets/img/app/top-header.png"
 import { useNavigate } from 'react-router-dom';
 
 const HomePage = () => {
@@ -17,6 +18,11 @@ const HomePage = () => {
 						<Box display="flex" marginBottom="50px">
 							<Logo className="block m-auto min-w-[min(100%,420px)] h-full text-p-light"></Logo>
 						</Box>
+
+						<Box display="flex" marginBottom="50px">
+							<img src={topHeader} alt="header" className='w-full ' />
+						</Box>
+
 						<Box display="flex" flexWrap="wrap" gap="2rem" justifyContent="center">
 							{/* <MainButton
 								data-cy="create-level-button"

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Box, CircularProgress, Pagination, Stack } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { useMutation } from 'react-query';

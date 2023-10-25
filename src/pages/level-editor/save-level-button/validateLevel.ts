@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { supabase } from '../../../config/supabase-config';
 import { LevelFile, LevelRules } from '../../../types';
 

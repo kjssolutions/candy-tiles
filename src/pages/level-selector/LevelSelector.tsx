@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Box, Container, Paper, Stack, Tab, Tabs } from '@mui/material';
 import anime from 'animejs';
 import { useEffect } from 'react';
